@@ -12,3 +12,9 @@ h2 {
   text-align: center;
   margin-top: 10px;
 }
+
+#output {
+  margin: 50px 50px 50px 50px;
+  display: block;
+  width: 100%;
+}
