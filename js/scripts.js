@@ -1,13 +1,12 @@
+function cypher(input) {
+  let code = input.charAt(0);
+  return document.getElementById("output").innerHTML = code
+
+}
+
 $(document).ready(function() {
-  $("h2").click(function() {
-    alert("This is a header.");
-  });
-
-  $("p").click(function() {
-    alert("This is a paragraph.");
-  });
-
-  $("img").click(function() {
-    alert("This is an image.");
+  $("#submit").click(function() {
+    let input = document.getElementById("input").value;
+    cypher(input);
   });
 });
