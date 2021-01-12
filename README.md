@@ -7,6 +7,8 @@ This project take a sentence from a user as an input and gives desired output.
 
 ## *Setup instructions:*
 Clone repository by using this [URL](https://github.com/DanielAdeyemi/Epicodus_1_11_JQuery_practice.git) and run the ***index.html*** file in your terminal
+***
+Or you can visit [git hub pages](https://danieladeyemi.github.io/Epicodus_1_11_JQuery_practice) for this project
 #### **The output you can get:**
 * ***First & Last*** will take the first and last letter of the sentence, capitalize them, and return this as a new string;
 * ***First&Last Reverse*** will reverse the order of these two letters and return the result;
