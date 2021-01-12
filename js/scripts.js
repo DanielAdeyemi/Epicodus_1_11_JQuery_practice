@@ -18,6 +18,19 @@ function cypher4(input) {
   return document.getElementById("output").innerHTML = code;
 }
 
+function cypher5(input) {
+  let index = Math.floor((input.length - 1) / 2);
+  let code = input.charAt(index) + input + cypher2(cypher1(input)).toUpperCase();
+  return document.getElementById("output").innerHTML = code;
+}
+
+function cypher6(input) {
+  let str = cypher5(input);
+  let code = str.split("").reverse().join("");
+  return document.getElementById("output").innerHTML = code;
+}
+
+
 
 $(document).ready(function() {
   $("#cypher1").click(function() {
@@ -39,4 +52,15 @@ $(document).ready(function() {
     let input = document.getElementById("input").value;
     cypher4(input);
   });
+
+  $("#cypher5").click(function() {
+    let input = document.getElementById("input").value;
+    cypher5(input);
+  });
+
+  $("#cypher6").click(function() {
+    let input = document.getElementById("input").value;
+    cypher6(input);
+  });
+
 });
