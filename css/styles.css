@@ -1,0 +1,10 @@
+.container {
+  margin: 50px 50px 50px 50px;
+  display: block;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}

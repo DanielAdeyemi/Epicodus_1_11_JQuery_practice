@@ -12,14 +12,22 @@
 </head>
 
 <body>
-  <input type="text" name="Put your sentance here" id="input">
-  <input type="button" value="FirstLast" name="Submit" id="cypher1">
-  <input type="button" value="FirstLastReverse" name="Submit" id="cypher2">
-  <input type="button" value="1+2" name="Submit" id="cypher3">
-  <input type="button" value="end of sentence" name="Submit" id="cypher4">
-  <input type="button" value="Divide" name="Submit" id="cypher5">
-  <input type="button" value="Reverse Divide" name="Submit" id="cypher6">
-  <p id="output"></p>
+  <header>
+    <h2>Cypher?</h2>
+  </header>
+  <main>
+    <div class="container">
+      <input type="text" name="Put your sentance here" id="input" autofocus placeholder="Input your sentence here">
+      <button type="button" class="btn btn-primary" id="cypher1">First & Last</button>
+      <button type="button" class="btn btn-secondary" id="cypher2">First&Last Reverse</button>
+      <button type="button" class="btn btn-success" id="cypher3">F1 + F2</button>
+      <button type="button" class="btn btn-danger" id="cypher4">Sent + F3</button>
+      <button type="button" class="btn btn-warning" id="cypher5">Divide index</button>
+      <button type="button" class="btn btn-info" id="cypher6">Divide index reverse</button>
+
+      <p id="output"></p>
+    </div>
+  </main>
 </body>
 
 </html>
